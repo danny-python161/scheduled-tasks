@@ -19,6 +19,7 @@ on:
   # This adds a "Run workflow" button so you can test manually
   workflow_dispatch:
 
+# Add this block here to apply it to all jobs globally:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   
